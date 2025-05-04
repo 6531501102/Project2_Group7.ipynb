@@ -7,11 +7,12 @@ import joblib
 # Load trained model
 model = joblib.load('churn_model.pkl')
 
-st.title("📊 Telco Customer Churn Prediction Thanchanok Komonnak 6531501059
-Thanyarat Sriphomma 6531501060
-Bunthita Chitsomboon 6531501072
-Phurichaya Khunmongkol 6531501102
-Thanchanok Manta 6531501153")
+st.title("📊 Telco Customer Churn Prediction 
+Thanchanok Komonnak 
+Thanyarat Sriphomma 
+Bunthita Chitsomboon 
+Phurichaya Khunmongkol 
+Thanchanok Manta ")
 
 
 
