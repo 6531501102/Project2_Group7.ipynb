@@ -7,13 +7,13 @@ import joblib
 # Load trained model
 model = joblib.load('churn_model.pkl')
 
-st.title("📊 Telco Customer Churn Prediction")
-
-st.title("1.Thanchanok Komonnak 6531501059
+st.title("📊 Telco Customer Churn Prediction  1.Thanchanok Komonnak 6531501059
 2.Thanyarat Sriphomma 6531501060
 3.Bunthita Chitsomboon 6531501072
 4.Phurichaya Khunmongkol 6531501102
 5.Thanchanok Manta 6531501153")
+
+
 
 def user_input_features():
     tenure = st.sidebar.number_input('Tenure (months)', 0, 72, 12)
